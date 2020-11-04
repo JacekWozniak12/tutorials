@@ -1,36 +1,36 @@
-# Importing from BrickLink Studio into Blender 2.81 or higher
-## Prerequisites
+# Importowanie z BrickLink Studio do Blendera 2.81+
+## Wymagane
 1. [Blender](https://www.blender.org/download/releases/)
 2. [BrickLink Studio](https://www.bricklink.com/v3/studio/download.page)
 3. [TobyLobster's ImportLDraw](https://github.com/TobyLobster/ImportLDraw)
 
-## What we are going to do
-Import model file from BrickLink Studio to Blender
+## Co chcemy zrobić
+Zaimportować model z BrickLink Studio do Blender
 ![main](imgs/ldraw-into-blender/00.PNG)
 
-## Instalation
-1. Install Blender and BrickLink Studio using provided links. Keep directory of BrickLink Studio, it will be needed later.
-2. Download ZIP file of ImportLDraw from github page.
-3. Open Blender. Select Edit > Preferences. 
+## Instalacja
+1. Zainstaluj Blender oraz BrickLink Studio z dostarczonych linków. Zapisz adres BrickLink Studio, będzie potrzebny potem.
+2. Pobierz archiwum ImportLDraw z strony githuba.
+3. Otwórz Blender. Wybierz Edit > Preferences. 
     ![preferences](imgs/ldraw-into-blender/01-preferences.PNG)
-4. Find ZIP file using Blender directory manager.
-5. Install addon and then apply it in preferences. Use find option to make it quicker ("Import LDraw").
+4. Znajdź plik archiwum przy użyciu menedżera folderów Blender.
+5. Zainstaluj addon i potem zatwierdź go w ustawieniach. Użyj opcji wyszukaj by przyśpieszyć proces ("Import LDraw").
     ![import-and-apply](imgs/ldraw-into-blender/02-import-and-apply.PNG)
-6. Save preferences if you wish to have it as default.
+6. Zapisz ustawienia, jeśli chcesz żeby addon był domyślnie w programie. 
     ![save-preferences](imgs/ldraw-into-blender/02-save-preferences.PNG)
 
 ## Pipeline
-1. Create or open model in BrickLink Studio that you wish to import to Blender.
-2. Select 'Export as Ldraw'.
+1. Stwórz lub otwórz model w Bricklink Studio, który chcesz zaimportować do Blender.
+2. Wybierz 'Export as Ldraw'.
     ![export-as-ldraw](imgs/ldraw-into-blender/03-export-as-ldraw.PNG)
-3. Open Blender. Select Import > LDraw
+3. Otwórz Blender. Select Import > LDraw
     ![import](imgs/ldraw-into-blender/04-import.PNG)
-4. Supply directory path of BrickLink Studio/LDraw folder to *LDraw Filepath* - that way, you can be sure that BrickLink Studio and importer are using same files to render creations.
+4. Wtaw adres folderu BrickLink Studio/LDraw do *LDraw Filepath* - w ten sposób możesz być pewien że BrickLink Studio oraz importer używają tego samego zestawu pliku do generowania modeli.
     ![library](imgs/ldraw-into-blender/05-library.PNG)
-5. Select file to import and change import options as you wish.
+5. Wybierz plik do importu i ustaw to co Ci pasuje.
     ![file-import](imgs/ldraw-into-blender/06-file-import.PNG)
-6. It may take a while, so be patient.
-7. Now you may render it or modify it via Blender tools.
+6. Może to chwile zająć, więc bądź cierpliwy.
+7. Teraz możesz to wyrenderować lub zmodyfikować przy użyciu narzędzi Blender.
 
-## Legal
-All rights belongs to respective owners, including: LEGO, Blender Fundation, TobyLobster and Estate of James Jessiman. This manual is not developed or endorsed by any of those mentioned before.
+## Prawne
+Wszystkie prawa należą do ich prawowitych właścicieli, włączając: LEGO, Blender Fundation, TobyLobster oraz Estate of James Jessiman. Ten poradnik nie jest rozwijany lub wspierany przez wcześniej wymienionych.
