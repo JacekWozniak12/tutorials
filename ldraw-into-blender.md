@@ -1,4 +1,4 @@
-# Importing from BrickLink Studio into Blender 2.81 or higher
+# Importing from BrickLink Studio into Blender 2.81+
 ## Prerequisites
 1. [Blender](https://www.blender.org/download/releases/)
 2. [BrickLink Studio](https://www.bricklink.com/v3/studio/download.page)
